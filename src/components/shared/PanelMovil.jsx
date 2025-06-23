@@ -24,7 +24,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
           {Menu ? <VscChromeClose /> : <BsMenuUp />}
         </button>
       </nav>
-      <main className="lg:pl-25 grid grid-cols-1 lg:grid-cols-8 pb-10">
+      <main className="lg:pl-25 grid grid-cols-1 lg:grid-cols-8 pb-20">
         <div className="lg:col-span-6 md:p-8 p-5 bg-[#262837] lg:bg-transparent">
           <header>
             <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
@@ -67,7 +67,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
               <CiCircleChevDown /> Dine in
             </button>
           </div>
-          <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15">
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
                 src="img1.png"
@@ -80,7 +80,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
             </div>
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
-                src="img1.png"
+                src="img2.png"
                 alt=""
                 className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"
               />
@@ -90,7 +90,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
             </div>
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
-                src="img1.png"
+                src="img4.png"
                 alt=""
                 className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"
               />
@@ -100,7 +100,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
             </div>
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
-                src="img1.png"
+                src="img3.png"
                 alt=""
                 className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"
               />
@@ -110,7 +110,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
             </div>
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
-                src="img1.png"
+                src="img5.png"
                 alt=""
                 className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"
               />
@@ -120,7 +120,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
             </div>
             <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center gap-2 text-center text-gray-300">
               <img
-                src="img1.png"
+                src="img2.png"
                 alt=""
                 className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"
               />
@@ -163,7 +163,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
                   <div className="grid grid-cols-6 mb-4">
                     <div className=" col-span-4 flex items-center gap-3">
                       <img
-                        src="img1.png"
+                        src="img3.png"
                         alt=""
                         className="w-10 h-10 object-cover"
                       />
@@ -198,7 +198,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
                   <div className="grid grid-cols-6 mb-4">
                     <div className=" col-span-4 flex items-center gap-3">
                       <img
-                        src="img1.png"
+                        src="img4.png"
                         alt=""
                         className="w-10 h-10 object-cover"
                       />
@@ -233,7 +233,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
                   <div className="grid grid-cols-6 mb-4">
                     <div className=" col-span-4 flex items-center gap-3">
                       <img
-                        src="img1.png"
+                        src="img5.png"
                         alt=""
                         className="w-10 h-10 object-cover"
                       />
@@ -268,7 +268,7 @@ export const PanelMovil = ({ miMenu, miOrden, Menu, Orden }) => {
                   <div className="grid grid-cols-6 mb-4">
                     <div className=" col-span-4 flex items-center gap-3">
                       <img
-                        src="img1.png"
+                        src="img6.png"
                         alt=""
                         className="w-10 h-10 object-cover"
                       />
